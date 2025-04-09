@@ -1,14 +1,48 @@
 body {
     background-color: rgb(64, 5, 120);
+}
+
+.bodyShell {
+
     color: white;
     text-align: center;
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 100px;
+
 }
 
 h1 {
     font-size: 150px;
     font-family:Arial, Helvetica, sans-serif;
-    
+    color: mediumturquoise;
+    line-height: 130px;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -5%;
+}
+
+p {
+    color:deeppink;
+    font-size: 1.5em;
+    line-height: 2;
+}
+img {
+    width: 100% !important;
+}
+
+h2 {
+    font-size: 34px;
+}
+.myButton {
+    color: rgb(68, 17, 107);
+}
+.ButtonMy {
+    background-color: aqua;
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
